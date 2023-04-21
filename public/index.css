@@ -26,10 +26,17 @@ header {
     border-bottom-right-radius: 1rem;
 }
 
+.one {
+    justify-content: flex-end;
+}
+
+.two {
+    justify-content: flex-start;
+}
+
 .dumb {
     flex: 1;
     display: flex;
-    justify-content: center;
     font-size: 2rem;
     opacity: 0;
     transition: opacity 1.5s var(--cubic);
@@ -41,7 +48,7 @@ header:hover .dumb {
 
 h1 {
     flex: 1;
-    min-width: 50rem;
+    min-width: 45rem;
     padding: 20px;
     text-align: center;
     font-size: 5rem;
